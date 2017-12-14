@@ -1,0 +1,20 @@
+{
+    "name": "saper",
+    "description": "Saper on JS",
+    "version": "1.0.0",
+    "author": "Amir Sarsenov",
+    "license": "MIT",
+    "dependencies": {
+        "compression": "^1.7.1",
+        "express": "3.x",
+        "hbs": "^4.0.1",
+        "helmet": "^3.9.0"
+    },
+    "scripts": {
+    	"build": "node app.js"
+    },
+    "repository": {
+    	"type": "git",
+    	"url": "https://github.com/am0ka/minesweeperJS"
+    }
+}

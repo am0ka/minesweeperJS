@@ -10,4 +10,4 @@ app.get('/', function(req, res) {
     res.sendfile('./index.html');
 });
  
-app.listen(80, () => console.log('Game started successfully!'));
+app.listen(3000, () => console.log('Game started successfully!'));

@@ -7,7 +7,7 @@ var path = require('path');
 app.use(helmet());
 app.use(compression());
  
-app.get('/', function(req, res) {
+app.get('/game', function(req, res) {
     res.sendfile(path.join(__dirname, 'index.html'));
 });
  

@@ -6,7 +6,7 @@ var helmet = require('helmet');
 app.use(helmet());
 app.use(compression());
  
-app.get('/game', function(req, res) {
+app.get('/', function(req, res) {
     res.sendfile('./index.html');
 });
  
